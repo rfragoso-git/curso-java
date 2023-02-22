@@ -1,0 +1,47 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Para converter para uma classe primeira letra maiuscula
+		Scanner entrada = new Scanner(System.in);
+
+		byte a = 100;
+		Byte b = 100;
+		short r = 1000;
+		Short s = 1000;
+		int h = 10000;
+		long k = 100000;
+		Long l = 100000L;
+		Integer i = 10000;
+
+		System.out.println(b.byteValue() + a);
+		System.out.println(s.toString() + r);
+		System.out.println(i.compareTo(h));
+		System.out.println(l.longValue() + k);
+		
+		float f = 123.15F;
+		Float o = 321.45F;
+		System.out.println(o.compareTo(f));
+		
+		char c = '%';
+		Character t = '#';
+		System.out.println(t.compareTo(c));
+		boolean le = Boolean.parseBoolean("false");
+		Boolean bo = Boolean.parseBoolean("true");
+		System.out.println(le);// tipo primitivo ñ tem funções ponto
+		System.out.println(bo);
+		System.out.println(bo.toString().toUpperCase());
+
+		System.out.print("Digite um nro: ");
+		Integer nro = 3 * Integer.parseInt(entrada.nextLine());
+		System.out.printf("O numero digitado vezes o nro 3 = %d ", nro);
+
+		entrada.close();
+	}
+
+}

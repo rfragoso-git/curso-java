@@ -1,0 +1,13 @@
+package fundamentos;
+
+import java.sql.Date;
+
+public class Import {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date vlrs = new Date(0);
+		System.out.println(vlrs);
+	}
+
+}

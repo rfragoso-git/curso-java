@@ -1,0 +1,45 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Console {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.err.print("Bom ");
+		System.out.print(" dia!\n\n\n");
+		
+		System.out.printf("Megasena: %d %d %d %d %d %d",
+			1, 2, 3, 4, 5, 6 );
+		System.out.printf("\nPremio: %.1f\n\n", 2356790.37);
+		
+		//Scanner
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite seu nome: ");
+		String nome = entrada.nextLine();
+		
+		System.out.print("Digite seu sobrenome: ");
+		String sobrenome = entrada.nextLine();
+		
+		System.out.print("Você está de férias true/false: ");
+		boolean ferias = entrada.nextBoolean();
+		
+		System.out.print("Digite sua idade: ");
+		int idade = entrada.nextInt();
+		
+		System.out.print("Digite seu salário: ");
+		float salario = entrada.nextFloat();
+		
+		
+		
+	
+		System.out.printf("\n\nBem vindo: %s %s você tem %d anos"
+				,nome, sobrenome, idade);
+		System.out.printf("\n\nSeu rendimento anual é de %.1f e seu status de férias é %s", salario*12, ferias);
+			
+		entrada.close();
+	}
+
+}

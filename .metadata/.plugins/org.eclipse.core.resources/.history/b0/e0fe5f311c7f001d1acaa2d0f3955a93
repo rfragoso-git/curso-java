@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class notacaoPonto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double a = 2.35;
+		String nome = "Renato";
+		nome = nome.toUpperCase(nome);
+		System.out.print(nome);
+
+	}
+
+}

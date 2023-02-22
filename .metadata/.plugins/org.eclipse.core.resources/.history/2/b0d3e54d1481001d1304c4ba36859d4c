@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class PrimitivosObjeto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String t = new String("tesxto");
+		t.toUpperCase();
+		System.out.println(t);
+		
+
+	}
+
+}

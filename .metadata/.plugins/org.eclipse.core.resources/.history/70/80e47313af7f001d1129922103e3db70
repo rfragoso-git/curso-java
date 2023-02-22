@@ -1,0 +1,39 @@
+package fundamentos;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Ola - Seja Bem vindo".charAt(6));
+		
+		String s = "Boa tarde";
+		s = s.toUpperCase();
+		System.out.println(s);
+		System.out.println(s.concat("!!!"));
+		System.out.println(s + "!!!");
+		System.out.println(s.replaceFirst("TARDE", "DIA"));
+		System.out.println(s.startsWith("BOA"));
+		System.out.println(s.startsWith("Boa"));
+		System.out.println(s.toUpperCase()
+				.startsWith(s));
+		System.out.println(s.endsWith("Boa"));
+		System.out.println(s.endsWith("TARDE"));
+		System.out.println(s);
+		System.out.println(s.length());
+		System.out.println(s.equals("boa tarde"));
+		System.out.println(s.equalsIgnoreCase("boa tarde"));
+		
+		var nome = "Nicolas";
+		var sobrenome = "Nishida";
+		//System.out.println(nome.concat(sobrenome));
+		var idade = 26;
+		var salario = 3500.00F;
+		
+		// %s => string || %d => inteiro ||%f => float %2f => duas casas decimais
+		
+		System.out.printf("Nome: %s %s tem %d anos de idade"
+				+ " e recebe por mês R$ %.2f", nome,
+				sobrenome, idade, salario);
+	}
+}
+

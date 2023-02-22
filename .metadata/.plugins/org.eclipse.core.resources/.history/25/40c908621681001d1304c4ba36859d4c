@@ -1,0 +1,23 @@
+package fundamentos;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Para converter para uma classe primeira letra maiuscula
+		
+		byte a =100;
+		Byte b = 100;
+		short r = 1000;
+		Short s = 1000;
+		int h = 10000;
+		Integer i = 10000;
+		long k = 100000;
+		Long l = 100000L;
+		
+		System.out.println(b.byteValue() + a);
+
+	}
+
+}

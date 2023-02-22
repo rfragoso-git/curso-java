@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class PrimitivosObjeto {
+
+	public static void main(String[] args) {
+		// Tudo em Java são objetos, menos os tipos primitivos
+		
+		String t = new String("Wrappers são versão objeto dos tipos primitivos");
+		t.toUpperCase();
+		System.out.println(t);
+		
+		// Wrappers são versão objeto dos tipos primitivos 
+	}
+
+}

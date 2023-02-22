@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Console {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.err.print("Bom ");
+		System.out.print(" dia!\n\n\n");
+		
+		System.out.printf("Megasena: %d %d %d %d %d %d",
+			1, 2, 3, 4, 5, 6 );
+		System.out.printf("Premio: %.2f", 2356790.37);
+	}
+
+}

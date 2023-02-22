@@ -1,0 +1,26 @@
+### Tipos primitovos Java
+
+O Java possui 8 Tipos, sendo 6 tipos númericos, boleano e caracteres.
+
+Números Inteiros
+
+byte = sendo 01 Byte (-128 até +127)
+
+short = sendo 02 Bytes (-32.768 até 32.767)
+
+int = sendo 04 Bytes
+
+long = sendo 08 Bytes
+
+Números Reais, ponto flutuantes:
+
+double = sendo 08 Bytes 
+
+float = sendo 04 Bytes
+
+*** 01 Byte tem 08 bits, sendo o primeiro bit que define se o número é negativo.
+
+char = representa os caracteres, as letras, colocados entre aspas simples.
+
+boolean = true or false
+

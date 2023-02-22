@@ -1,0 +1,35 @@
+### Wrapers = são a versão objeto dos tipos primitivos, possuem funções ponto...
+
+	
+		byte a = 100;
+		
+		Byte b = 100; // funções ponto
+		
+		short r = 1000;
+		
+		Short s = 1000;  // funções ponto
+		
+		int h = 10000;
+		
+		 Integer i = 10000; // funções ponto
+		
+		long k = 100000;
+		
+		Long l = 100000L;  // funções ponto
+	
+		float f = 123.15F;
+		
+		Float o = 321.45F;  // funções ponto
+		
+		double u = 12345.6789;
+		
+		Double ou = 6789.4321; // funções ponto
+	
+		char c = '%';
+		
+		Character t = '#'; // funções ponto
+		
+		boolean le = Boolean.parseBoolean("false");
+		
+		Boolean bo = Boolean.parseBoolean("true"); // funções ponto
+		

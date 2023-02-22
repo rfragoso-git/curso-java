@@ -1,0 +1,21 @@
+package fundamentos;
+
+public class notacaoPonto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double a = 2.35;
+		String nome = "X Renato";
+		
+		nome = nome.toUpperCase();
+		nome = nome.replace ("X", "Bom dia");
+		nome = nome.concat("!!!");
+		//syso crtl + space
+		System.out.println(nome);
+		System.out.println("nicolas".toUpperCase());
+		String n = "Bom dia Y";
+		n = n.replace("Y", "Nicole");
+		System.out.println(n);
+	}
+
+}
